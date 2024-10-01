@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundaca de imagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Verificador de Idade
+    </header>
+
+    <section>
+        <form>
+            <label class="data">
+                Data de nascimento: 
+                <input type="number" name="data" id="data-input">
+            </label>
+
+            <div class="gen-area">
+                Sexo:
+                <label for="">
+                    <input type="radio" name="genero" value="male" id="male">
+                    Masculino
+                </label>
+                <label for="">
+                    <input type="radio" name="genero" value="female" id="female">
+                    Feminino
+                </label>
+            </div>
+
+            <button id="btn" type="button">Verificar</button>
+        </form>
+
+        <div class="hidden res" id="divEscondida">
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy;Marcos Fagundes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
